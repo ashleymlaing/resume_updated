@@ -1,0 +1,13 @@
+main{
+    max-width: 800px;
+    width: 80%;
+    margin: 5% auto;
+    border: 1px solid pink;
+}
+.github img{
+    width: 20px;
+    margin-right: 5px;
+}
+div{
+    display: flex;
+}
