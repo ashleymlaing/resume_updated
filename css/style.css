@@ -1,13 +1,55 @@
-main{
+/* Box Model Hack */
+ * {
+      -moz-box-sizing: border-box; /* Firexfox */
+      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+      box-sizing: border-box; /* IE */
+ }
+
+.page{
     max-width: 800px;
     width: 80%;
     margin: 5% auto;
     border: 1px solid pink;
 }
+
 .github img{
     width: 20px;
     margin-right: 5px;
 }
+
 div{
-    display: flex;
+
+}
+
+section{
+  width: 100%;
+}
+
+.half{
+  width: 50%;
+}
+
+.resume_top{
+  text-align: center;
+  border-bottom: 1px solid lightpink;
+}
+
+.resume_top ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+#edu{
+  text-align: center;
+}
+
+#edu section{
+  display:flex;
+  justify-content: space-around;
+}
+
+.jobs_projects{
+  display: flex;
 }
