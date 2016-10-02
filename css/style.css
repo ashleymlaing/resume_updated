@@ -29,6 +29,14 @@ section{
   width: 50%;
 }
 
+.half h2{
+  text-align: center;
+}
+
+.half > ul{
+  padding: 21px;
+}
+
 .resume_top{
   text-align: center;
   border-bottom: 1px solid lightpink;
@@ -36,13 +44,18 @@ section{
 
 .resume_top ul{
   display: flex;
-  list-style: none;
   justify-content: space-around;
   align-items: flex-end;
 }
 
+ul{
+  list-style: none;
+}
+
 #edu{
   text-align: center;
+  border-top: 1px solid lightpink;
+  border-bottom: 1px solid lightpink;
 }
 
 #edu section{
@@ -52,4 +65,20 @@ section{
 
 .jobs_projects{
   display: flex;
+}
+
+.jobs{
+list-style-type: disc;
+}
+
+#skill{
+  text-align: center;
+}
+
+.experience{
+  border-right: 1px solid lightpink;
+}
+
+.projects p{
+  padding-left: 25px;
 }
